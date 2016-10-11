@@ -54,6 +54,13 @@ namespace Sandbox
             return result2;
         }
 
-        
+        // Fundet en class Max for at finde det største nummer.
+        public int FourNumbers(params int[] mineTal)
+        {
+            return mineTal.Max();
+        }
+
+       
+
     }
 }

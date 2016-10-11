@@ -15,6 +15,9 @@ namespace Sandbox
 
             // med 2 numre
             Console.WriteLine("Resultatet af metode TwoNumbers {0}", mystiskNummer.TwoNumbers(3,1));
+
+            // med 4 numre
+            Console.WriteLine("Resultatet af metode med 4 numre {0}", mystiskNummer.FourNumbers(4,8,1,3));
             // The LAST line of code should be ABOVE this line
         }
     }
