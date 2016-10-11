@@ -10,7 +10,7 @@ namespace Sandbox
             MysticNumbers mystiskNummer = new MysticNumbers();
 
             mystiskNummer.ThreeNumbers(1, 4, 8);
-
+            Console.WriteLine("Test det ", mystiskNummer);
             // The LAST line of code should be ABOVE this line
         }
     }
