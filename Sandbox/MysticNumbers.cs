@@ -33,7 +33,26 @@ namespace Sandbox
             return result;
         }
 
-        
+        /// <summary>
+        /// Metode TwoNumbers
+        /// </summary>
+        /// <param int="a"></param>
+        /// <param int="b"></param>
+        /// <returns></returns>
+        public int TwoNumbers(int a, int b)
+        {
+            int result2;
+            if (b > a)
+            {
+                result2 = b;
+            }
+            else
+            {
+                result2 = a;
+            }
+
+            return result2;
+        }
 
         
     }
