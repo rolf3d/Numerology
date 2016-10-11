@@ -7,6 +7,8 @@ namespace Sandbox
 {
     class MysticNumbers
     {
+
+        // test
         public int ThreeNumbers(int a, int b, int c)
         {
             int result;
@@ -30,5 +32,7 @@ namespace Sandbox
 
             return result;
         }
+
+        
     }
 }
