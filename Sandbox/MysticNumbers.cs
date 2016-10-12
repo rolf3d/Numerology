@@ -60,6 +60,12 @@ namespace Sandbox
             return mineTal.Max();
         }
 
+        // Den korte udgave ´for at finde det største tal
+        public int Numbers(params int[] mangetal)
+        {
+            return mangetal.Max();
+        }
+
        
 
     }
